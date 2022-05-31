@@ -11,7 +11,7 @@
 #define HPIBV_USE_SEND_CC       0
 #define HPIBV_USE_MMAP_PKTBUFS  1
 #define HPIBV_USE_TIMING_DIAGS  0
-#define HPIBV_USE_EXP_CQ        1
+#define HPIBV_USE_EXP_CQ        0
 
 // The Mellanox installed infiniband/verbs.h file does not define
 // IBV_DEVICE_IP_CSUM or IBV_SEND_IP_CSUM.  This was an attempt to utilize said

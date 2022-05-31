@@ -1,6 +1,4 @@
-AM_CFLAGS = -ggdb -fPIC -O3 -Wall -Werror \
-            -Wno-error=stringop-truncation \
-            -Wno-error=format-overflow
+AM_CFLAGS = -ggdb -fPIC -O3 -Wall
 ACLOCAL_AMFLAGS = -I m4
 
 bin_PROGRAMS     =
